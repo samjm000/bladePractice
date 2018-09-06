@@ -20,3 +20,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/addSwap', 'HomeController@addSwap')->name('addSwap');
+
+Route::get('/uploadRota', 'HomeController@uploadRota')->name('uploadRota');

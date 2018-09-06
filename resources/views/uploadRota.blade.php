@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Swapsies Dashboard</div>
+                <div class="card-header">Upload My Rota</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -14,16 +14,13 @@
                         </div>
                     @endif
 
-                    <a href="{{ route('uploadRota') }}">Upload my rota ! (if doesn't exist)</a><br><br>
+                    <a href="{{ route('uploadRota') }}">Upload my rota ! </a><br><br>
 
-                    Days I want Off<br><br>
-
-                    Days I can't work<br><br>
 
 
 
                     <br><br>
-                    <a href="{{ route('home') }}">Back to Dashboard</a><br><br>
+                    <a href="{{ route('home') }}">Back to Swap Details</a><br><br>
 
                 </div>
             </div>
