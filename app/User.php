@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Swapsies;
 
 use Illuminate\Auth\MustVerifyEmail;
 use Illuminate\Notifications\Notifiable;
