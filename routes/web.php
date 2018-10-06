@@ -21,4 +21,9 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/addSwap', 'HomeController@addSwap')->name('addSwap');
 
-Route::get('/uploadRota', 'HomeController@uploadRota')->name('uploadRota');
+Route::get('/addRota', 'HomeController@addRota')->name('addRota');
+
+
+Route::get('import-export-view', 'ExcelController@importExportView')->name('import.export.view');
+Route::post('import-file', 'ExcelController@importFile')->name('import.file');
+Route::get('export-file/{type}', 'ExcelController@exportFile')->name('export.file');

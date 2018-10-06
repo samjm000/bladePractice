@@ -13,14 +13,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    <a href="{{ route('uploadRota') }}">Upload my rota ! (if doesn't exist)</a><br><br>
-
-                    Days I want Off<br><br>
-
-                    Days I can't work<br><br>
-
-
+Not yet
 
                     <br><br>
                     <a href="{{ route('home') }}">Back to Dashboard</a><br><br>

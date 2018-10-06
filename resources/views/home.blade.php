@@ -14,9 +14,9 @@
                         </div>
                     @endif
 
-                    Your work Calender (If exists) <br><br>
+                    <a href="{{ route('import.export.view') }}">Add work schedule </a><br><br>
 
-                    Swap Matches (If exists)<br><br>
+                    Swap Matches <br><br>
 
                     <a href="{{ route('addSwap') }}">Add A Swap</a><br><br>
 

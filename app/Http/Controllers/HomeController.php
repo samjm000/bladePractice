@@ -31,9 +31,15 @@ class HomeController extends Controller
         return view('addSwap');
     }
 
-    public function uploadRota()
+     public function addRota()
     {
-        return view('uploadRota');
+        return view('addRota');
     }
+
+     public function import(Request $request) 
+     {
+        //validate the xls file
+        echo "IMPORT";
+     }
 
 }
